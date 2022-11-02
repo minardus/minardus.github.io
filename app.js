@@ -13,6 +13,7 @@ const seq = [
   [0,0,1],
   [0,0,0],
   [0,1,0],
+  [0,0,1],
 ];
 
 const getTextBySeq = (seq) => {
@@ -38,7 +39,7 @@ const letsBinary = () => {
     } else {
       elem.innerHTML = text;
     }
-  }, 50);
+  }, 100);
 }
 
 const letsBlink = () => {
