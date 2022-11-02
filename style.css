@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+  background: #eee;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #22b455;
+  padding: 10px;
+}
+
+#mkit {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  color: #fff;
+  font-family: "Koulen";
+  text-align: center;
+  /*border-radius: 100px;*/
+}
+
+.mkit-text {
+  padding-top: 5px;
+  font-size: 72px;
+}
+
+#blink {
+  color: #22b455;
+}
+
+.dark {
+  color: #204829;
+}
+
+.up {
+  margin-top: -60px;
+}
